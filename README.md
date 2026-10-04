@@ -43,3 +43,18 @@ You can manually add shortcuts or routines there, or use the built-in commands:
 - [ ] Advanced Search Filtering
 - [ ] Theming and Customization
 - [ ] Plugin System for custom Commands
+
+
+📖 User Directions (for your users)
+
+50	How to Install & Use SideQuest:
+51	1. Download: Download the SideQuest.exe from the release page.
+52	2. Run: Double-click SideQuest.exe. The app will start and appear as a small icon in your system tray (bottom right).
+3. Launch: Press Ctrl + Space to open the search bar.
+4. Quick Use:
+   - Apps: Type the name of any app (e.g., "Chrome") and press Enter.
+   - Shortcuts: Type a keyword (e.g., gh) to open a saved link.
+   - Templates: Type a keyword followed by a search term (e.g., ghs react) to perform a parameterized search.
+   - Dev Commands: Type a dev keyword (e.g., wb) to run a specific command in a project folder.
+   - Routines: Type a routine keyword (e.g., work) to launch multiple apps at once.
+5. Configure: To add your own shortcuts, edit the config.json file found in %LocalAppData%\SideQuest\config.json.
