@@ -12,6 +12,7 @@ SideQuest is a smart, minimal search bar for Windows that lets you launch apps, 
 - **Developer Commands**: Run arbitrary shell commands in a specific working directory (e.g., `npm run dev` in your project folder).
 - **Smart Routines**: Launch a group of apps or websites together with one keyword (e.g., typing `work` to open Slack, Jira, and VS Code).
 - **Built-in Commands**: Use triggers like `!calc` or `!google` for instant actions.
+- **Auto-Start**: Option to launch SideQuest automatically when Windows starts.
 
 ### 🛠️ Technical Stack
 - **Framework**: .NET 8.0 / WPF
@@ -25,7 +26,7 @@ SideQuest is a smart, minimal search bar for Windows that lets you launch apps, 
 
 ### Build and Run
 ```powershell
-cd WinLauncher
+cd SideQuest
 dotnet build
 dotnet run
 ```
@@ -44,12 +45,11 @@ You can manually add shortcuts or routines there, or use the built-in commands:
 - [ ] Theming and Customization
 - [ ] Plugin System for custom Commands
 
-
 📖 User Directions (for your users)
 
-50	How to Install & Use SideQuest:
-51	1. Download: Download the SideQuest.exe from the release page.
-52	2. Run: Double-click SideQuest.exe. The app will start and appear as a small icon in your system tray (bottom right).
+How to Install & Use SideQuest:
+1. Download: Download the SideQuest.exe from the release page.
+2. Run: Double-click SideQuest.exe. The app will start and appear as a small icon in your system tray (bottom right).
 3. Launch: Press Ctrl + Space to open the search bar.
 4. Quick Use:
    - Apps: Type the name of any app (e.g., "Chrome") and press Enter.
@@ -57,4 +57,6 @@ You can manually add shortcuts or routines there, or use the built-in commands:
    - Templates: Type a keyword followed by a search term (e.g., ghs react) to perform a parameterized search.
    - Dev Commands: Type a dev keyword (e.g., wb) to run a specific command in a project folder.
    - Routines: Type a routine keyword (e.g., work) to launch multiple apps at once.
-5. Configure: To add your own shortcuts, edit the config.json file found in %LocalAppData%\SideQuest\config.json.
+5. Configure: 
+   - Auto-Start: Right-click the tray icon and check "Start with Windows".
+   - Shortcuts: Edit the config.json file found in %LocalAppData%\SideQuest\config.json.
