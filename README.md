@@ -12,7 +12,7 @@ SideQuest is a smart, minimal search bar for Windows that lets you launch apps, 
 - **Developer Commands**: Run arbitrary shell commands in a specific working directory (e.g., `npm run dev` in your project folder).
 - **Smart Routines**: Launch a group of apps or websites together with one keyword (e.g., typing `work` to open Slack, Jira, and VS Code).
 - **Built-in Commands**: Use triggers like `!calc` or `!google` for instant actions.
-- **Auto-Start**: Option to launch SideQuest automatically when Windows starts.
+- **Auto-Start**: Option to launch SideQuest automatically when Windows starts. Select start with windows in: System tray>right click sidequest
 
 ### 🛠️ Technical Stack
 - **Framework**: .NET 8.0 / WPF
