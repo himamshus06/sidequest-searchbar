@@ -1,6 +1,6 @@
 #define MyAppName "SideQuest"
-#define MyAppVersion "1.0.0"
-#define MyAppPublisher "Himanshu S"
+#define MyAppVersion "1.0.1"
+#define MyAppPublisher "Himamshu S"
 
 [Setup]
 AppId={{A1B2C3D4-E5F6-4A5B-8C9D-0E1F2A3B4C5D}}
