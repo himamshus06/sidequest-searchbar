@@ -60,3 +60,17 @@ How to Install & Use SideQuest:
 5. Configure: 
    - Auto-Start: Right-click the tray icon and check "Start with Windows".
    - Shortcuts: Edit the config.json file found in %LocalAppData%\SideQuest\config.json.
+
+
+## 🧑‍💻 Developer Workspace (`!dev`)
+
+SideQuest includes a dedicated **Developer Workspace** system for managing and launching development projects.
+
+Unlike routines, `!dev` is designed specifically for developer workflows. Each project can have its own folder, VS Code settings, terminal settings, Git initialization, and custom commands.
+
+### 📁 Developer Project Configuration
+
+Developer projects are stored in:
+
+```text
+%LocalAppData%\SideQuest\dev_projects.json

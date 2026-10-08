@@ -1,5 +1,5 @@
 #define MyAppName "SideQuest"
-#define MyAppVersion "1.1.0"
+#define MyAppVersion "1.1.2"
 #define MyAppPublisher "Himamshu S"
 
 [Setup]
@@ -8,7 +8,7 @@ AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
 
-DefaultDirName={autopf}\{#MyAppName}
+DefaultDirName={autopf}\{#MyAppName}  
 DefaultGroupName={#MyAppName}
 
 AllowNoIcons=yes
